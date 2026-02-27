@@ -1,6 +1,6 @@
-# 🎬 Movie Profitability & Ratings Analysis
+# Movie Profitability & Ratings Analysis
 
-## 📌 Project Overview
+## Project Overview
 
 This project analyzes movie industry data to understand the relationship between **budget, profit, genre performance, IMDb ratings, and release trends**.
 
@@ -13,7 +13,7 @@ The project was completed as an **end-to-end data analytics workflow**, starting
 
 ---
 
-## 📂 Datasets Used
+## Datasets Used
 
 Three datasets were merged and analyzed:
 
@@ -25,7 +25,7 @@ After cleaning and transformation, a unified `movies_master` table was created f
 
 ---
 
-## 🛠 Tools & Technologies
+## Tools & Technologies
 
 - **SQL (Google BigQuery)** – Data cleaning, joins, transformation, and analysis  
 - **Tableau Public** – Interactive dashboard creation  
@@ -35,7 +35,7 @@ All SQL queries used for analysis are available inside the `queries/` folder.
 
 ---
 
-## 🧹 Data Cleaning & Preparation
+## Data Cleaning & Preparation
 
 Key data preparation steps included:
 
@@ -53,35 +53,35 @@ This stage ensured the dataset was analysis-ready and suitable for business insi
 
 ---
 
-## 📊 Analytical Insights
+## Analytical Insights
 
 The analysis focused on four core areas:
 
-### 1️⃣ Top Profitable Movies
+### Top Profitable Movies
 Identified the highest-profit movies based on total box office profit.  
 Results showed blockbuster franchises consistently dominating global earnings.
 
 ---
 
-### 2️⃣ Average Profit by Genre
+### Average Profit by Genre
 Analyzed average profitability across genres.  
 **Animation, Family, and Adventure** genres showed the highest average profits.
 
 ---
 
-### 3️⃣ Budget vs IMDb Rating
+### Budget vs IMDb Rating
 Explored whether higher production budgets lead to better audience ratings.  
 The results showed **no strong correlation** — large budgets do not guarantee high IMDb ratings.
 
 ---
 
-### 4️⃣ Profit by Release Year
+### Profit by Release Year
 Examined how profitability trends have changed over time.  
 Movie profits have increased significantly since the early 2000s, reflecting global industry growth and box office expansion.
 
 ---
 
-## 📈 Dashboard Preview
+## Dashboard Preview
 
 ![Dashboard Preview](movie_profitability_&_ratings_analysis.png)
 
@@ -97,7 +97,7 @@ The dashboard includes:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 datasets/   → Raw and cleaned movie datasets  
@@ -109,7 +109,7 @@ README.md   → Project documentation
 
 ---
 
-## 🎓 Key Learnings
+## Key Learnings
 
 - Practical experience with SQL data cleaning and multi-table joins  
 - Writing analytical queries from scratch  
@@ -119,7 +119,7 @@ README.md   → Project documentation
 
 ---
 
-## 🚀 Conclusion
+## Conclusion
 
 This project demonstrates how structured data analysis can uncover valuable insights about movie industry performance.
 
